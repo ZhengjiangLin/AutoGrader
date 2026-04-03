@@ -1,0 +1,30 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment secrets - NEVER upload real keys
+.env
+.env.local
+.env.*
+
+# IMPORTANT: DO upload the example template
+!.env.example
+
+# Generated folders - do not upload student work or results
+Results/
+student_submissions/
+
+# Logs and temporary files
+*.log
+debug.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Local test folders (optional)
+test_files/
+
+# VSCode workspace settings (optional)
+.vscode/
